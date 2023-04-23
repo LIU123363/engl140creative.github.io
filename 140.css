@@ -38,7 +38,7 @@ body {
 .nav-menu a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Creepster', cursive; /* 添加这一行来使用新的字体 */
 }
 
@@ -92,12 +92,12 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .transition {
@@ -177,7 +177,7 @@ p {
 /* 为标题添加边框并将其变大 */
 .hero-content h1 {
     /* 更改字体大小 */
-    font-size: 80px;
+    font-size: 120px;
     /* 保持其他样式不变，例如字体、动画等 */
     display: inline-block;
     padding: 10px 20px;
@@ -359,6 +359,45 @@ html {
 
 
 
+.introduction {
+    display: flex;
+    min-height: 100vh;
+    background-color: #222; /* 为第二页设置不同的背景颜色 */
+    color: #fff; /* 设置第二页文本颜色 */
+}
+
+.introduction .text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* 更改为 "flex-start" 使文本内容对齐到右侧 */
+    padding: 0 20px;
+}
+
+
+.introduction .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction .image-container img {
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* ... 其他 CSS 代码 ... */
 
 .page-2 {
@@ -393,7 +432,7 @@ html {
 
 .text-container {
     font-family: 'Apple Chancery', cursive;
-    font-size: 60px; /* 更大的字体大小 */
+    font-size: 40px; /* 更大的字体大小 */
     font-weight: bold; /* 加粗字体 */
     line-height: 1.6;
     color: #ffffff; /* 白色 */
@@ -537,9 +576,68 @@ html {
 }
 
 
-
 .poster-title {
-    font-family: Zapfino, cursive;
+    font-family: 'Apple Chancery', cursive;
     font-size: 40px;
     font-weight: bold;
+}
+
+
+.page-6 {
+    display: flex;
+    min-height: 100vh;
+    background-color: #222; /* 为第二页设置不同的背景颜色 */
+    color: #fff; /* 设置第二页文本颜色 */
+}
+
+.page-6 .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-6 .image-container img {
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.page-6 .text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* 更改为 "flex-start" 使文本内容对齐到右侧 */
+    padding: 0 20px;
+}
+
+
+
+.begin {
+    display: flex;
+    min-height: 100vh;
+    background-color: #222; /* 为第二页设置不同的背景颜色 */
+    color: #fff; /* 设置第二页文本颜色 */
+}
+
+.begin .text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* 更改为 "flex-start" 使文本内容对齐到右侧 */
+    padding: 0 20px;
+}
+
+
+.begin .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.begin .image-container img {
+    max-width: 100%;
+    max-height: 100vh;
 }
